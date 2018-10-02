@@ -40,7 +40,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <yara/globals.h>
 #include <yara/scan.h>
 #include <yara/scanner.h>
-
+#include "dyn_sig.h"
 
 YR_API int yr_rules_define_integer_variable(
     YR_RULES* rules,
